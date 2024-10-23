@@ -1,0 +1,161 @@
+.qna {
+    background-color: #f9f9f9;
+    /* Light background for the section */
+    padding: 40px 0;
+    /* Padding for the section */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.container {
+    max-width: 800px;
+    /* Max width for the container */
+    margin: 0 auto;
+    /* Center the container */
+    text-align: left;
+    /* Center text */
+}
+
+.question-title {
+    font-size: 1.5em;
+    /* Larger font size for the title */
+    margin-bottom: 20px;
+    /* Space below the title */
+    color: #333;
+    /* Darker text color */
+}
+
+.question-container {
+    background: #fff;
+    /* White background for question container */
+    padding: 20px;
+    /* Padding for question container */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Shadow for the question container */
+}
+
+.question-text {
+    font-size: 1.3em;
+    /* Font size for question text */
+    margin-bottom: 15px;
+    /* Space below the question text */
+    color: #4CAF50;
+    /* Green color for question text */
+}
+
+.answer-label {
+    display: block;
+    /* Block display for labels */
+    padding: 10px;
+    /* Padding for label */
+    background: #f1f1f1;
+    /* Light gray background */
+    border: 1px solid transparent;
+    /* Initial border */
+    border-radius: 5px;
+    /* Rounded corners */
+    margin-bottom: 10px;
+    /* Space between answers */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: border-color 0.3s;
+    /* Transition for border color */
+}
+
+.answer-label:hover {
+    border-color: #4CAF50;
+    /* Green border on hover */
+    background: #e0f7e0;
+    /* Light green background on hover */
+}
+
+input[type="checkbox"] {
+    display: none;
+    /* Hide the default checkbox */
+}
+
+input[type="checkbox"]+.checkmark {
+    display: inline-block;
+    /* Show checkmark as an inline block */
+    width: 20px;
+    /* Width of the checkmark */
+    height: 20px;
+    /* Height of the checkmark */
+    border: 2px solid #4CAF50;
+    /* Green border for the checkmark */
+    border-radius: 3px;
+    /* Rounded corners for the checkmark */
+    margin-right: 10px;
+    /* Space between checkmark and text */
+    vertical-align: middle;
+    /* Align vertically */
+}
+
+input[type="checkbox"]:checked+.checkmark {
+    background: #4CAF50;
+    /* Green background when checked */
+    color: white;
+    /* White text color */
+}
+
+.next-btn {
+    background-color: #4CAF50;
+    /* Green background for button */
+    color: white;
+    /* White text color */
+    border: none;
+    /* No border */
+    padding: 10px 20px;
+    /* Padding for button */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s;
+    /* Transition for background color */
+}
+
+.next-btn:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
+
+.result-section {
+    margin-top: 20px;
+    /* Space above result section */
+    font-size: 1.2em;
+    /* Font size for result section */
+    color: #333;
+    /* Darker text color */
+}
+
+.guidelines-text-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.guidelines-info-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif; /* Use your site's font */
+}
+
+.view-guidelines-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-guidelines-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,49 @@
+/* Styling for modal */
+.guideline-modal {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.guideline-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guidelines-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.guidelines-btn:hover {
+    background-color: #0056b3;
+}
+
+.close-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.close-btn:hover {
+    background-color: #c9302c;
+}

@@ -1,0 +1,35 @@
+/* Header.css */
+.header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px 0; /* Top and bottom padding */
+}
+
+.headercontainer {
+    max-width: 1200px; /* Center the header with a max width */
+    margin: 0 auto; /* Center align */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
+}
+
+.header-title {
+    font-size: 1.8em; /* Larger font size for title */
+    margin: 0; /* Remove default margin */
+}
+
+.navbar {
+    display: flex; /* Flexbox for nav items */
+}
+
+.nav-link {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Spacing around links */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
