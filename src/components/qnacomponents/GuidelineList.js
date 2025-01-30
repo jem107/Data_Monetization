@@ -7,7 +7,8 @@ const GuidelineList = () => {
     useEffect(() => {
         const fetchGuidelines = async () => {
             try {
-                const response = await fetch(`${process.env.PUBLIC_URL}/guidelines.json`);
+                //const response = await fetch(`${process.env.PUBLIC_URL}/guidelines.json`);
+                const response = await fetch(`/guidelines.json`);
                 const data = await response.json();
                 setGuidelines(data);
             } catch (error) {

@@ -21,6 +21,7 @@ class QnASection extends Component {
     componentDidMount() {
         // Fetch CSV data
         const csvUrl = `${process.env.PUBLIC_URL}/questions.csv`;
+        //const csvUrl = `questions.csv`;
         fetch(csvUrl)
             .then(response => response.text())
             .then(csvText => this.processCSV(csvText))
